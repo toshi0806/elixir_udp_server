@@ -6,7 +6,8 @@ defmodule UDPServer.Task do
   end
 
   def udp_server_run(arg) do
-    UDPServer.open(arg)
+#    UDPServer.open(arg)
+    UDPSocketServer.open(arg)
   end
 end
 
